@@ -1,0 +1,20 @@
+#!bin/bash/
+
+cd ..
+
+if [ ! -d git-game ]
+then
+echo "Bot directory not adjacent to git-game directory. Exiting"
+cd Git-Hub-Bot
+exit 1
+fi
+
+cd git-game
+echo -e "Level 2\n======="
+echo "$ git checkout bug"
+git checkout bug
+
+cd ..
+cd Git-Hub-Bot
+
+exit 0
