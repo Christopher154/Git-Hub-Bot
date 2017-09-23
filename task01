@@ -14,8 +14,12 @@ echo -e "Level 1\n======="
 echo "$ git checkout 6402738"
 git checkout 6402738
 
-
 cd ..
 cd Git-Hub-Bot
+
+if [ $1 == "--finish" ]
+then
+bash task02 --finish
+fi
 
 exit 0
