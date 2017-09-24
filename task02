@@ -17,4 +17,9 @@ git checkout bug
 cd ..
 cd Git-Hub-Bot
 
+if [ $1 == "--finish" ]
+then
+bash task03 --finish
+fi
+
 exit 0
