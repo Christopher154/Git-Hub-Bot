@@ -7,6 +7,7 @@ then
 echo "Bot directory not adjacent to git-game directory. Exiting"
 cd Git-Hub-Bot
 exit 1
+fi
 
 cd git-game
 cat README.md
