@@ -10,7 +10,7 @@ exit 1
 
 cd git-game
 cat README.md
-echo "$ git blame from cool.cpp"
+echo "$ git blame cool.cpp"
 git blame cool.cpp
 echo "$ git checkout LinusTorvalds2014"
 git checkout LinusTorvalds2014
