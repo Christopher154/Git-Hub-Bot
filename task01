@@ -1,25 +1,26 @@
 #!bin/bash/
 
-cd ..
-
-if [ ! -d git-game ]
+if [ ! -d ../git-game ]
 then
 echo "Bot directory not adjacent to git-game directory. Exiting"
-cd Git-Hub-Bot
 exit 1
 fi
 
-cd git-game
-echo -e "Level 1\n======="
-echo "$ git checkout 6402738"
+YELLOW='\033[1;33m'
+NC='\033[0m' # No Color
+
+cd ../git-game
+echo -e "=======\nLevel 1\n======="
+echo -e "${YELLOW}$ git checkout 6402738${NC}"
 git checkout 6402738
 
-cd ..
-cd Git-Hub-Bot
-
-if [ $1 == "--finish" ]
+if [ "$1" == "--finish" ]
 then
+cd ../Git-Hub-Bot
 bash task02 --finish
+else
+cat README.md
+cd ../Git-Hub-Bot
 fi
 
 exit 0
