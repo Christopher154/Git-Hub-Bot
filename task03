@@ -1,0 +1,23 @@
+#!/bin/bash
+
+cd ..
+
+if [ ! -d git-game ]
+then
+echo "Bot directory not adjacent to git-game directory. Exiting"
+cd Git-Hub-Bot
+exit 1
+
+cd git-game
+cat README.md
+echo "$ git blame cool.cpp"
+git blame cool.cpp
+echo "$ git checkout LinusTorvalds2014"
+git checkout LinusTorvalds2014
+
+if [ $1 == "--finish" ]
+then
+bash task04 --finish
+fi
+
+exit 0
