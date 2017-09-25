@@ -17,7 +17,8 @@ echo -e "${YELLOW}$ git merge code4life${NC}"
 git merge code4life
 echo -e "${YELLOW}$ git status${NC}"
 git status
-read -p "Fix merge conflicts and press enter"
+echo -e "${YELLOW}Fixing merge conflicts - see 'bugOverwrite.txt'${NC}"
+cat bugOverwrite.txt > nextclue_input.cpp
 echo -e "${YELLOW}$ git commit -am"Fixed merge conflicts"${NC}"
 git commit -am"Fixed merge conflicts"
 echo -e "${YELLOW}$ git status${NC}"
