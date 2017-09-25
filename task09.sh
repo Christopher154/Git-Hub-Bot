@@ -1,4 +1,4 @@
-#!bin/bash/
+#!/bin/bash
 
 if [ ! -d ../git-game ]
 then
@@ -10,14 +10,18 @@ YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
 cd ../git-game
-echo -e "=======\nLevel 1\n======="
-echo -e "${YELLOW}$ git checkout 6402738${NC}"
-git checkout 6402738
+echo -e "=======\nLevel 9\n======="
+echo -e "${YELLOW}$ cat README.md${NC}"
+cat README.md
+echo -e "${YELLOW}$ git tag -d Henry${NC}"
+git tag -d Henry
+echo -e "${YELLOW}$ git checkout Henry${NC}"
+git checkout Henry
 
 if [ "$1" == "--finish" ]
 then
 cd ../Git-Hub-Bot
-bash task02 --finish
+./task09.sh --finish
 else
 cat README.md
 cd ../Git-Hub-Bot

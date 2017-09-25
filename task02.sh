@@ -1,4 +1,4 @@
-#!bin/bash/
+#!/bin/bash
 
 if [ ! -d ../git-game ]
 then
@@ -11,13 +11,17 @@ NC='\033[0m' # No Color
 
 cd ../git-game
 echo -e "=======\nLevel 2\n======="
+echo -e "${YELLOW}$ cat README.md${NC}"
+cat README.md
+echo -e "${YELLOW}$ git branch -a${NC}"
+git branch -a
 echo -e "${YELLOW}$ git checkout bug${NC}"
 git checkout bug
 
 if [ "$1" == "--finish" ]
 then
 cd ../Git-Hub-Bot
-bash task03 --finish
+./task03.sh --finish
 else
 cat README.md
 cd ../Git-Hub-Bot
