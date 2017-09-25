@@ -22,13 +22,5 @@ git pull updater master
 echo -e "${YELLOW}$ cat README.md${NC}"
 cat README.md
 
-if [ "$1" == "--finish" ]
-then
 cd ../Git-Hub-Bot
-./task10.sh --finish
-else
-cat README.md
-cd ../Git-Hub-Bot
-fi
-
-exit 0
+echo "${YELLOW} Finished the game!"

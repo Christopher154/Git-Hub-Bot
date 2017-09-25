@@ -31,7 +31,7 @@ git checkout mouse
 if [ "$1" == "--finish" ]
 then
 cd ../Git-Hub-Bot
-./task04.sh --finish
+./task08.sh --finish
 else
 cat README.md
 cd ../Git-Hub-Bot
