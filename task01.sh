@@ -11,6 +11,8 @@ NC='\033[0m' # No Color
 
 cd ../git-game
 echo -e "=======\nLevel 1\n======="
+echo -e "${YELLOW}$ cat README.md${NC}"
+cat README.md
 echo -e "${YELLOW}$ git log --oneline${NC}"
 git log --oneline
 echo -e "${YELLOW}$ git checkout 6402738${NC}"
