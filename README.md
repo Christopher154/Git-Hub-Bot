@@ -1,4 +1,4 @@
-#Git-Game-Bot
+#Git-Hub-Bot
 
 Welcome to the git game bot
 
