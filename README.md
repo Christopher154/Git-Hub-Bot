@@ -1,4 +1,4 @@
-#Git-Hub-Bot
+# Git-Hub-Bot
 
 Welcome to the git game bot
 
@@ -9,3 +9,11 @@ To start, clone this repository using the command
 "$ git clone https://github.com/Christopher154/Git-Hub-Bot.git"
 
 and type "bash help" into the terminal
+
+## Usage
+
+```
+./gitbot.sh
+```
+
+If you would like to run each in order add the parameter `--finish`
