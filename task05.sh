@@ -21,15 +21,10 @@ git checkout tree
 if [ "$1" == "--finish" ]
 then
 cd ../Git-Hub-Bot
-bash task04 --finish
+./task06.sh --finish
 else
 cat README.md
 cd ../Git-Hub-Bot
 fi
 
 exit 0
-
-
-cat .gitignore
-echo -e "${YELLOW}$ git checkout tree${NC}"
-git checkout tree

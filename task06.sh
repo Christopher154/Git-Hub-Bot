@@ -17,7 +17,7 @@ cat README.md
 if [ "$1" == "--finish" ]
 then
 cd ../Git-Hub-Bot
-bash task04 --finish
+./task07.sh --finish
 else
 cat README.md
 cd ../Git-Hub-Bot

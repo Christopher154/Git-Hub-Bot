@@ -21,7 +21,7 @@ git checkout Henry
 if [ "$1" == "--finish" ]
 then
 cd ../Git-Hub-Bot
-bash task04 --finish
+./task09.sh --finish
 else
 cat README.md
 cd ../Git-Hub-Bot

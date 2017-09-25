@@ -21,7 +21,7 @@ git checkout bug
 if [ "$1" == "--finish" ]
 then
 cd ../Git-Hub-Bot
-bash task03 --finish
+./task03.sh --finish
 else
 cat README.md
 cd ../Git-Hub-Bot

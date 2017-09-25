@@ -20,7 +20,7 @@ echo -e "${YELLOW}--> .gitignore${NC}"
 if [ "$1" == "--finish" ]
 then
 cd ../Git-Hub-Bot
-bash task04 --finish
+./task05.sh --finish
 else
 cat README.md
 cd ../Git-Hub-Bot
