@@ -23,4 +23,4 @@ echo -e "${YELLOW}$ cat README.md${NC}"
 cat README.md
 
 cd ../Git-Hub-Bot
-echo "${YELLOW} Finished the game!"
+echo -e "${YELLOW} Finished the game!"
