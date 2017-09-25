@@ -1,3 +1,0 @@
-#!/bin/bash
-
-echo -e "In order to run a specific task use ./task## or bash task##\nIf you would like to run each in order add the parameter --finish"
